@@ -1,0 +1,188 @@
+{
+  "project": "M&M Cleaning — Casa em suspensão",
+  "purpose": "Assets raster para animação de scroll em 2.5D",
+  "layerOrderBackToFront": [
+    "03-floor",
+    "04-architecture",
+    "05-rug",
+    "06-sofa",
+    "07-table",
+    "08-ceiling"
+  ],
+  "backgroundColors": [
+    "#061B3B",
+    "#0A2C5C"
+  ],
+  "accentColor": "#25D9F7",
+  "registration": "As peças foram geradas separadamente. Não possuem registro pixel perfeito. Os presets são pontos de partida para ajustes na implementação.",
+  "assets": [
+    {
+      "id": "01-room-assembled",
+      "file": "images/01-room-assembled.png",
+      "description": "Sala montada — imagem principal e alternativa estática",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        48,
+        233,
+        1209,
+        1210
+      ]
+    },
+    {
+      "id": "02-exploded",
+      "file": "images/02-exploded.png",
+      "description": "Sala em suspensão — referência visual",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        204,
+        151,
+        1065,
+        1151
+      ]
+    },
+    {
+      "id": "03-floor",
+      "file": "images/03-floor.png",
+      "description": "Piso de madeira e base de pedra",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        47,
+        837,
+        1211,
+        1216
+      ],
+      "layoutSeed": {
+        "scale": 1,
+        "translateXCanvasFraction": 0,
+        "translateYCanvasFraction": 0,
+        "explosionYCanvasFraction": 0.12,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    },
+    {
+      "id": "04-architecture",
+      "file": "images/04-architecture.png",
+      "description": "Paredes, janelas, vista externa e árvore",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        15,
+        341,
+        1227,
+        925
+      ],
+      "layoutSeed": {
+        "scale": 0.82,
+        "translateXCanvasFraction": 0.1,
+        "translateYCanvasFraction": 0.1,
+        "explosionYCanvasFraction": -0.07,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    },
+    {
+      "id": "05-rug",
+      "file": "images/05-rug.png",
+      "description": "Tapete de textura clara",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        48,
+        872,
+        1207,
+        1186
+      ],
+      "layoutSeed": {
+        "scale": 0.82,
+        "translateXCanvasFraction": 0.109,
+        "translateYCanvasFraction": 0.079,
+        "explosionYCanvasFraction": 0.05,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    },
+    {
+      "id": "06-sofa",
+      "file": "images/06-sofa.png",
+      "description": "Sofá e almofadas",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        52,
+        551,
+        1245,
+        877
+      ],
+      "layoutSeed": {
+        "scale": 0.65,
+        "translateXCanvasFraction": 0.223,
+        "translateYCanvasFraction": 0.28,
+        "explosionYCanvasFraction": -0.02,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    },
+    {
+      "id": "07-table",
+      "file": "images/07-table.png",
+      "description": "Mesa, vaso, livros e xícara",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        73,
+        467,
+        1183,
+        1111
+      ],
+      "layoutSeed": {
+        "scale": 0.33,
+        "translateXCanvasFraction": 0.383,
+        "translateYCanvasFraction": 0.488,
+        "explosionYCanvasFraction": 0.015,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    },
+    {
+      "id": "08-ceiling",
+      "file": "images/08-ceiling.png",
+      "description": "Teto e luminária",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG RGBA",
+      "alpha": true,
+      "visibleBoundsAlphaAbove20": [
+        40,
+        114,
+        1230,
+        546
+      ],
+      "layoutSeed": {
+        "scale": 0.765,
+        "translateXCanvasFraction": 0.134,
+        "translateYCanvasFraction": 0.116,
+        "explosionYCanvasFraction": -0.18,
+        "transformOrigin": "top left",
+        "status": "starting-point-adjust-in-browser"
+      }
+    }
+  ]
+}
